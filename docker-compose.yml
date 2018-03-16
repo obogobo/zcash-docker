@@ -1,0 +1,11 @@
+version: '3'
+services:
+  zcashd:
+    build: .
+    ports:
+    - "8232:8232"
+    volumes:
+    - home:/root
+    tty: true
+volumes:
+  home: {}

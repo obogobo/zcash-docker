@@ -2,5 +2,5 @@
 set -e
 
 zcash-fetch-params
-zcashd "$@"
+zcashd
 

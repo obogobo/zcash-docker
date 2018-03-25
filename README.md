@@ -1,6 +1,8 @@
 # zcash-docker
 A Dockerfile for running the official ZCash linux client
 
+![zcashd](https://raw.githubusercontent.com/obogobo/zcash-docker/master/zcashd.png)
+
 ## Prerequisites
 Docker Engine 17.09.0+ (for docker-compose feature support)
 
@@ -29,4 +31,4 @@ docker exec -it <container_id> bash
 ```
 
 Example, using the RPC API:
-`$ apt-get install netcat && nc 127.0.0.1 8232` 
+`$ apt-get install curl && curl 127.0.0.1:8232` 
